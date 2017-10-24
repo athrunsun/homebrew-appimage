@@ -6,6 +6,7 @@ class HyperAppimage < Formula
     sha256 "e116416ee153e1b6db7edfd74071c60be2d67a943168b0e429eb3aee740d5fc7"
 
     bottle :unneeded
+    cxxstdlib_check :skip
 
     def install
         prefix.install Dir["*"]
