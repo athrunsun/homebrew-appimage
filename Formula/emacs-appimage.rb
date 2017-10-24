@@ -6,6 +6,7 @@ class EmacsAppimage < Formula
     sha256 "ca3be352606de7509401f0c9a5415dd5a1ac1ece5f9e7d0c23c712d8dd0e763c"
 
     bottle :unneeded
+    cxxstdlib_check :skip
     conflicts_with "emacs"
 
     def install

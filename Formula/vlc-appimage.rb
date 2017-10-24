@@ -6,6 +6,7 @@ class VlcAppimage < Formula
     sha256 "0073f7277c4125e64bd00bc30d40c80aa7733946b9715321ee00d0077726ed05"
 
     bottle :unneeded
+    cxxstdlib_check :skip
 
     def install
         prefix.install Dir["*"]

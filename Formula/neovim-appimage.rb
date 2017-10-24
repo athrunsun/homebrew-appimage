@@ -6,6 +6,7 @@ class NeovimAppimage < Formula
     sha256 "6a191bf260c499ba171d54a1cfdbfd2df1a3c2475cfc66ed8366265d7ef0b254"
 
     bottle :unneeded
+    cxxstdlib_check :skip
     conflicts_with "neovim", "neovim-binary"
 
     def install

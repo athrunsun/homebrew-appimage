@@ -6,6 +6,7 @@ class LightTableAppimage < Formula
     sha256 "1e75717397fefa3d472e5235a288236a24f288842d1dafa5e9dc490723812ab0"
 
     bottle :unneeded
+    cxxstdlib_check :skip
     conflicts_with "light-table"
 
     def install

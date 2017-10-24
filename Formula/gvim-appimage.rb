@@ -6,6 +6,7 @@ class GvimAppimage < Formula
     sha256 "bca9a545a6504d10abf2a9be4d1da5b0f10640ca1aef4cc3afa5b5399ea7cd50"
 
     bottle :unneeded
+    cxxstdlib_check :skip
 
     def install
         prefix.install Dir["*"]
