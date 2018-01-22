@@ -14,7 +14,7 @@ class VlcAppimage < Formula
         bin.install_symlink("#{prefix}/VLC-#{version}.glibc2.16-x86_64.AppImage" => "vlc")
     end
 
-    def caveats; <<-EOS.undent
+    def caveats; <<~EOS
         Executable is linked as "vlc".
         EOS
     end

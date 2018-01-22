@@ -14,7 +14,7 @@ class NextcloudAppimage < Formula
     bin.install_symlink("#{prefix}/Nextcloud-#{version}-x86_64.AppImage" => "nextcloud")
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<~EOS
         Executable is linked as "nextcloud".
         EOS
   end

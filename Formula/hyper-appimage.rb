@@ -14,7 +14,7 @@ class HyperAppimage < Formula
         bin.install_symlink("#{prefix}/hyper-#{version}-x86_64.AppImage" => "hyper")
     end
 
-    def caveats; <<-EOS.undent
+    def caveats; <<~EOS
         Executable is linked as "hyper".
         EOS
     end

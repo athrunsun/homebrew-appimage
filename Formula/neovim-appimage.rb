@@ -15,7 +15,7 @@ class NeovimAppimage < Formula
         bin.install_symlink("#{prefix}/nvim.appimage" => "nvim")
     end
 
-    def caveats; <<-EOS.undent
+    def caveats; <<~EOS
         Executable is linked as "nvim".
         EOS
     end

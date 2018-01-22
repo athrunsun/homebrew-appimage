@@ -15,7 +15,7 @@ class EmacsAppimage < Formula
         bin.install_symlink("#{prefix}/Emacs-#{version}-glibc2.17-x86-64.AppImage" => "emacs")
     end
 
-    def caveats; <<-EOS.undent
+    def caveats; <<~EOS
         Executable is linked as "emacs".
         EOS
     end

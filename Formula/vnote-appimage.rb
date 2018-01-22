@@ -14,7 +14,7 @@ class VnoteAppimage < Formula
         bin.install_symlink("#{prefix}/VNote_x86_64_#{version}.AppImage" => "vnote")
     end
 
-    def caveats; <<-EOS.undent
+    def caveats; <<~EOS
         Executable is linked as "vnote".
         EOS
     end

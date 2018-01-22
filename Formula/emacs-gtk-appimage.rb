@@ -14,7 +14,7 @@ class EmacsGtkAppimage < Formula
         bin.install_symlink("#{prefix}/Emacs-#{version}.gtk3-glibc2.17-x86-64.appimage" => "emacs-gtk")
     end
 
-    def caveats; <<-EOS.undent
+    def caveats; <<~EOS
         Executable is linked as "emacs-gtk".
         EOS
     end

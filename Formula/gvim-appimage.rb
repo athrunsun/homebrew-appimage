@@ -14,7 +14,7 @@ class GvimAppimage < Formula
         bin.install_symlink("#{prefix}/GVim-v#{version}7-git67435d998-glibc2.15.glibc2.15-x86_64.AppImage" => "gvim")
     end
 
-    def caveats; <<-EOS.undent
+    def caveats; <<~EOS
         Executable is linked as "gvim".
         EOS
     end

@@ -15,7 +15,7 @@ class LightTableAppimage < Formula
         bin.install_symlink("#{prefix}/LightTable-#{version}_x64.AppImage" => "light")
     end
 
-    def caveats; <<-EOS.undent
+    def caveats; <<~EOS
         This formula is actually downloading appimage from my bintray repo: https://bintray.com/athrunsun/appimage/lighttable.
         Executable is linked as "light".
         EOS

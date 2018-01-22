@@ -14,7 +14,7 @@ class BracketsElectronAppimage < Formula
         bin.install_symlink("#{prefix}/brackets-electron-#{version}-x86_64.AppImage" => "bracketse")
     end
 
-    def caveats; <<-EOS.undent
+    def caveats; <<~EOS
         Executable is linked as "bracketse".
         How does this differ to regular brackets?
         Brackets-Electron x.y.z will follow x.y of Brackets releases, with z being reserved for patches and merges of latest features which are available in brackets master repository and planned to be released in the next version. This way you can preview the upcoming features without running brackets from source.

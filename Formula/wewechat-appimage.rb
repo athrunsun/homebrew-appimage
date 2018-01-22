@@ -14,7 +14,7 @@ class WewechatAppimage < Formula
         bin.install_symlink("#{prefix}/wewechat-#{version}-x86_64.AppImage" => "wewechat")
     end
 
-    def caveats; <<-EOS.undent
+    def caveats; <<~EOS
         Executable is linked as "wewechat".
         EOS
     end
