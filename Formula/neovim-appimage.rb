@@ -1,9 +1,9 @@
 class NeovimAppimage < Formula
     desc "Vim-fork focused on extensibility and usability."
     homepage "https://github.com/neovim/neovim"
-    version "0.2.1"
-    url "https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage"
-    sha256 "6a191bf260c499ba171d54a1cfdbfd2df1a3c2475cfc66ed8366265d7ef0b254"
+    version "0.2.2"
+    url "https://github.com/neovim/neovim/releases/download/v#{version}/nvim.appimage"
+    sha256 "809f6c24d78ebbbac5edb643deeb01b4dc06a54a712e4ebec381a98ab493ac73"
 
     bottle :unneeded
     cxxstdlib_check :skip
