@@ -10,8 +10,8 @@ class VnoteAppimage < Formula
 
     def install
         prefix.install Dir["*"]
-        chmod(0755, "#{prefix}/VNote_x86_64_#{version}.AppImage")
-        bin.install_symlink("#{prefix}/VNote_x86_64_#{version}.AppImage" => "vnote")
+        chmod(0755, "#{prefix}/VNote-#{version}-x86_64.AppImage")
+        bin.install_symlink("#{prefix}/VNote-#{version}-x86_64.AppImage" => "vnote")
     end
 
     def caveats; <<~EOS
