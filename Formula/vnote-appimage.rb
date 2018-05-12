@@ -1,9 +1,9 @@
 class VnoteAppimage < Formula
-    desc "A Vim-inspired note-taking application, especially for Markdown."
+    desc "A Vim-inspired note-taking application that knows programmers and Markdown better."
     homepage "https://tamlok.github.io/vnote"
-    version "1.9"
+    version "1.16"
     url "https://github.com/tamlok/vnote/releases/download/v#{version}/VNote_x86_64_#{version}.AppImage"
-    sha256 "f1f1a1c3e53f3feb343a9275dba83f81e0acb0fa87e91d0dfe762b5b92a66e88"
+    sha256 "2a88701d5fd7e4bd8ff596e92553bc21b89a7b0be357ffd41df0b6cc915be79e"
 
     bottle :unneeded
     cxxstdlib_check :skip
