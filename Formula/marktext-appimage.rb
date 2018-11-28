@@ -1,6 +1,6 @@
 class MarktextAppimage < Formula
     desc "Next generation markdown editor, running on platforms of MacOS Windows and Linux."
-    homepage "https://github.com/marktext/marktext  https://marktext.github.io/website/"
+    homepage "https://github.com/marktext/marktext"
     version "0.10.21"
 
     url "https://github.com/marktext/marktext/releases/download/v#{version}/marktext-#{version}-x86_64.AppImage"

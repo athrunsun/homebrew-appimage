@@ -1,12 +1,13 @@
 class InsomniaAppimage < Formula
     desc "Cross-platform HTTP and GraphQL Client."
     homepage "https://github.com/getinsomnia/insomnia"
-    version "6.0.2"
+    version "6.2.0"
 
     url "https://github.com/getinsomnia/insomnia/releases/download/v#{version}/insomnia-#{version}-x86_64.AppImage"
-    sha256 "3bed5943465cec2938b6d4bfc180503c6d5d002dac0cb16474c4282983c01759"
+    sha256 "b18004127f751e207f736220c49fa05964a5be4ac09bda93de2e75d4bcffd247"
 
     bottle :unneeded
+    conflicts_with "insomnia"
     cxxstdlib_check :skip
 
     def install
